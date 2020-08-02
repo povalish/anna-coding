@@ -1,0 +1,136 @@
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 50px;
+}
+
+
+.textinput {
+  width: 268px;
+  height: 40px;
+  padding: 7px 21px;
+
+  background-color: #FFFFFF;
+  border: 1px solid #63509E;
+  border-radius: 20px;
+  outline: 0;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.textinput::placeholder {
+  color: #63509E;
+  opacity: 0.5
+}
+
+.inputhover:hover {
+  box-shadow: 0px 4px 10px rgba(166, 150, 239, 0.25);
+}
+
+.pressed:focus {
+  box-shadow: 0px 4px 10px rgba(166, 150, 239, 0.25);
+}
+
+.inactive:disabled {
+  border: 1px solid #E2E1E6;
+  color: #E2E1E6;
+}
+
+.character {
+  width: 331px;
+  height: 445px;
+  margin: 0 50px;
+
+  /* background: #FFFFFF; */
+  background-color: #ffffff;
+  border: 1px solid #63509E;
+  border-radius: 30px;
+}
+
+h3 {
+  width: 230px;
+  padding: 0;
+  margin: 45px 32px 1px 49px;
+
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #37006D;
+}
+
+.text {
+  width: 246px;
+  height: 76px;
+  margin: 20px 32px 0 53px;
+
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.money {
+  
+}
+
+.money:disabled {
+  margin: 120px 116px 0px 115px;
+  width: 100px;
+  height: 40px;
+
+  background-color: #F4F1FF;
+  border-radius: 20px;
+  border: 0;
+
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #37006D;
+}
+
+.buy {
+  margin: 20px 55px 20px 56px;
+  width: 220px;
+  height: 60px;
+
+  background-color: #FB1C63;
+  border-radius: 40px;
+  border: 0;
+  box-shadow: 0px 12px 32px rgba(251, 28, 99, 0.5);
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+  
+  transition: background-color 0.25s ease-in-out;
+}
+
+.buy:hover {
+  background-color: #FF427E;
+}
+
+
+.buy:active {
+  background-color: #DF0D50;
+}
+
+.buy:focus {
+  outline: none;
+  box-shadow: -5px 6px 32px 10px rgba(251, 28, 99, 0.5);  
+}
