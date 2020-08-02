@@ -137,8 +137,16 @@ body {
 .allicon {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;    
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+
+    margin: 0px auto;
+    
 }
 
 .imgandtext {
@@ -147,12 +155,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    margin: 0px 0px 0px 122px;    
+    /* margin: 0px 0px 0px 122px;     */
 }
 
-.imgandtext:first-child {
+/* .imgandtext:first-child {
     margin: 0px;
-}
+} */
 
 .imgpay {
     width: 138px;
@@ -167,8 +175,7 @@ body {
 
 .button {
     padding: 25px 70px 21px 70px;
-    margin: 110px 0px 0px 0px;
-
+    
     background-image: linear-gradient(258.3deg, #1649CC 0%, #520CAB 100%);
     border-radius: 35px;
     box-shadow: 0px 4px 40px #342ABC;
@@ -179,10 +186,15 @@ body {
     text-transform: uppercase;
 }
 
+.button-margin1 {
+    margin: 110px 0px 0px 0px;
+}
+
 .button:focus {
     outline: none;
     box-shadow: -5px 6px 32px 10px #342ABC;
 }
+
 
 
 
@@ -243,10 +255,83 @@ body {
     justify-content: center;
     align-items: flex-start;
 
-    margin: 0px 0px 0px 151px;
+    /* margin: 0px 0px 0px 151px; */
 }
 
-.numberandtext:first-child {
+/* .numberandtext:first-child {
+    margin: 0px;
+} */
+
+
+
+
+
+
+
+
+
+
+.login {
+    padding: 150px 0px 150px 0px;
+}
+
+.inlogin {
+    width: 580px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2login {
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
     margin: 0px;
 }
 
+.plogin {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+
+    margin: 10px 0px 50px 0px;
+}
+
+.nameandpass {
+    width: 580px;
+}
+
+.input-field {
+    margin-bottom: 40px;
+}
+
+.textlabel {
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.35);
+
+    padding-left: 30px;
+}
+
+.inputlogin {
+    width: 100%;
+    padding: 25px 30px 25px 30px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 1);
+    /* opacity: 50%; */
+
+    margin-top: 10px;
+}
+
+.button-margin2 {
+    margin-top: 10px;
+}
+ 
