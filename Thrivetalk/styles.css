@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.container-nav {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 27px 180px 27px 180px;
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;  
+    
+    margin: 0;
+}
+
+.navigation {
+    list-style: none outside;
+
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+}
+
+.link-navigation {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #22356F;
+}
+
+.link-margin {
+    margin-left: 15px;
+}
+
+.link-margin:first-child {
+    margin: 0;
+}
+
+.link-navigation:hover {
+    border-bottom: 1px solid #22356F;
+}
+
+.button {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    align-items: center;
+    color: #ffffff;
+    border: 0;
+
+    background-color: #62D0DF;
+    border-radius: 50px;
+
+    padding: 20px 30px 20px 30px;   
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: -5px 6px 32px 10px #62D0DF;
+}
+
+
+
+
+
+
+
+
+.container {
+    background-color: #F4F9E2;
+    padding: 0px 178px 0px 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-header {
+    width: 100%;
+    max-width: 525px;
+}
+
+.logo-header {
+    margin-bottom: 40px;
+}
+
+.name-header {
+    font-size: 48px;
+    line-height: 53px;
+    letter-spacing: -0.035em;
+    color: #22356F;
+
+    margin-bottom: 67px;
+    margin-top: 0px;
+}
+
+.text {
+    font-size: 24px;
+    line-height: 42px;
+    color: #22356F;
+}
+
+.text-header {
+    margin-bottom: 63px;
+    margin-top: 0px;
+}
+
+.link-field {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #F9B640;
+
+    padding: 10px 30px;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+    text-decoration: none;
+
+    margin-left: 38px;
+}
